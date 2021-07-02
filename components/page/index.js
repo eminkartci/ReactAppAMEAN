@@ -26,9 +26,9 @@ const Homepage = (props) => {
                     <Text style={styles.subtitle}>Eğitim ve Yazılımda en iyisi!</Text>
 
 
-                    <StyledButton text="Giriş yap" />
+                    <StyledButton text="Giriş yap" type="primary" topMargin='30%'/>
 
-                    <StyledButton text="Kayıt ol" />
+                    <StyledButton text="Kayıt ol" type="secondary" topMargin='5%'/>
                     
 
                 </View>
