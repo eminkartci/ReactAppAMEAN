@@ -1,6 +1,7 @@
 import React from 'react';
 import { View , Text , ImageBackground} from 'react-native';
 import styles from './styles';
+import StyledButton from '../StyledButton';
 
 const Homepage = (props) => {
     return (
@@ -23,6 +24,12 @@ const Homepage = (props) => {
 
                     <Text style={styles.title}>A-MEAN Danışmanlık</Text>
                     <Text style={styles.subtitle}>Eğitim ve Yazılımda en iyisi!</Text>
+
+
+                    <StyledButton text="Giriş yap" />
+
+                    <StyledButton text="Kayıt ol" />
+                    
 
                 </View>
 
