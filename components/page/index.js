@@ -2,10 +2,13 @@ import React from 'react';
 import { View , Text , ImageBackground} from 'react-native';
 import styles from './styles';
 import StyledButton from '../StyledButton';
+import Header from '../Header';
 
 const Homepage = (props) => {
     return (
             <View style={styles.imageContainer}>
+
+                <Header />
 
                 <ImageBackground 
                     source={require('../../assets/images/background.jpg')}
