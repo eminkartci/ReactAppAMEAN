@@ -12,9 +12,7 @@ const StyledButton = (props) => {
 
                 <Pressable
                     style={[styles.button,{backgroundColor: backgroundColor, marginTop: topMargin}]}
-                    onPress={() => {
-                        console.log("Button is pressed!")
-                    }}
+                    onPress= {props.onPress}
                 >
 
                     <Text style={styles.buttonText}> 

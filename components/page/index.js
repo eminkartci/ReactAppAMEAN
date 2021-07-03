@@ -26,9 +26,13 @@ const Homepage = (props) => {
                     <Text style={styles.subtitle}>Eğitim ve Yazılımda en iyisi!</Text>
 
 
-                    <StyledButton text="Giriş yap" type="primary" topMargin='30%'/>
+                    <StyledButton text="Giriş yap" type="primary" topMargin='30%' onPress= {()=>{
+                        console.log("Giriş Yap is pressed !!")
+                    }}/>
 
-                    <StyledButton text="Kayıt ol" type="secondary" topMargin='5%'/>
+                    <StyledButton text="Kayıt ol" type="secondary" topMargin='5%'onPress= {()=>{
+                        console.log("Kayıt ol is pressed !!")
+                    }}/>
                     
 
                 </View>
